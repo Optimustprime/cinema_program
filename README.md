@@ -28,18 +28,17 @@ This is an API for managing a cinema program, with the ability to add new movies
 
     cd cinema-program-api
 
-3. Run the following command to start the containers:
+3. Run the following commands to build and start the containers:
 
-    docker-compose up 
+   - docker build .
+   - docker-compose build
+   - docker-compose up 
 
-4. Run the database migrations:
 
-   docker-compose run --rm app sh -c "python manage.py loaddata movies/fixtures/movies.json"
-
-5. Run the tests:
+4. Run the tests:
    docker-compose run --rm app sh -c "python manage.py test"
 
-6. Access the API at http://localhost:8000/api/docs/
+5. Access the API at http://localhost:8000/api/docs/
 
 ## API Endpoints
 
