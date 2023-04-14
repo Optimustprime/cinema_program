@@ -58,3 +58,5 @@ This is an API for managing a cinema program, with the ability to add new movies
     docker-compose run --rm app sh -c "django-admin startproject myproject"
 - Run the following command to create a new Django app after creating your project:
     docker-compose run --rm app sh -c "python manage.py startapp <app_name>"
+
+![img.png](img.png)
