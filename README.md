@@ -1,7 +1,7 @@
 # cinema_program
 A test Project
 
-This is an API for managing a cinema program, with the ability to add new movies, sync the data to MongoDB, and list trending movies.
+This is an API for managing a cinema program, with the ability to add new movies, sync the data to MongoDB, and list trending movies sorted by ranking
 
 ## Requirements
 
