@@ -60,3 +60,4 @@ This is an API for managing a cinema program, with the ability to add new movies
     docker-compose run --rm app sh -c "python manage.py startapp <app_name>"
 
 ![img.png](img.png)
+![img_1.png](img_1.png)
